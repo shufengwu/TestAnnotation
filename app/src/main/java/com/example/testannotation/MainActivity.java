@@ -1,11 +1,13 @@
 package com.example.testannotation;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import java.lang.annotation.Documented;
-import java.lang.reflect.Method;
 
+import java.lang.reflect.Method;
+/*
+运行时注解
+ */
 public class MainActivity extends AppCompatActivity {
 
     private TextView show;
